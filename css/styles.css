@@ -1,1 +1,43 @@
-/* Ini css */
+.grid-container {
+    display: grid;
+    grid-gap: 4px;
+    grid-template-columns:40px 40px 40px 40px;
+    border-color:black;
+    border-radius: 20px;
+}
+
+button {
+    border: none;
+    border-radius: 4px;
+}
+
+ input {
+    grid-column: 1 / span 4;
+    border-radius: 4px;
+ }
+
+ .red {
+    grid-column: 1 / span 2;
+    color: white;
+    background-color: red;
+    
+ }
+
+ .blue {
+    color: white;
+    background-color: blue;
+ }
+
+ .yellow {
+    background-color: orange;
+ }
+
+ .green {
+    color: white; 
+    background-color: green;
+ }
+
+ #black {
+    color: white; 
+    background-color: black;
+ }
